@@ -1,0 +1,5 @@
+[2024-03-17 06:34:04,659] 22 root - INFO - Entered the data ingetsion method
+[2024-03-17 06:34:04,674] 25 root - INFO - read the dataset as dataframe..
+[2024-03-17 06:34:04,736] 31 root - INFO - train test and split initiated
+[2024-03-17 06:34:04,799] 39 root - INFO - Ingestion of the data is completed
+[2024-03-17 06:34:04,845] 47 root - INFO - Dataframes created

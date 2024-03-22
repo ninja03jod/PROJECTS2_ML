@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        form {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        select {
+            height: 36px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Fastag_OG_Data</title>
+</head>
+<body>
+
+<h1>Fastag_OG_Data.csv</h1>
+
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <table>
+        <tr>
+            <th>Hour</th>
+            <th>Month</th>
+            <th>DayOfWeek</th>
+            <th>Vehicle_Type</th>
+            <th>FastagID</th>
+            <th>TollBoothID</th>
+            <th>Lane_Type</th>
+            <th>Vehicle_Dimensions</th>
+            <th>Transaction_Amount</th>
+            <th>Amount_paid</th>
+            <th>Geographical_Location</th>
+            <th>Vehicle_Speed</th>
+            <th>Fraud_indicator</th>
+        </tr>
+        <!-- CSV data rows will be added here -->
+        <tr>
+            <td>0</td>
+            <td>11</td>
+            <td>1</td>
+            <td>4</td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>350</td>
+            <td>120.0</td>
+            <td>3</td>
+            <td>65</td>
+            <td>0</td>
+        </tr>
+        <!-- Add more rows like the one above for each data entry -->
+    </table>
+    <input type="submit" value="Predict">
+</form>
+<!-- Prediction Tag -->
+<h2>Prediction: The Prediction is {{results}}</h2>
+</body>
+</html>

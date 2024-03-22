@@ -1,0 +1,20 @@
+[2024-03-17 11:51:01,083] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-03-17 11:51:01,093] 96 werkzeug - INFO -  * Debugger PIN: 105-919-939
+[2024-03-17 11:53:07,719] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:53:07] "GET / HTTP/1.1" 200 -
+[2024-03-17 11:53:07,895] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:53:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-03-17 11:53:19,261] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:53:19] "GET / HTTP/1.1" 200 -
+[2024-03-17 11:54:08,526] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:54:08] "GET /predictdata HTTP/1.1" 200 -
+[2024-03-17 11:54:11,566] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:54:11] "GET /predictdata HTTP/1.1" 200 -
+[2024-03-17 11:54:12,218] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:54:12] "GET /predictdata HTTP/1.1" 200 -
+[2024-03-17 11:54:12,319] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:54:12] "GET /predictdata HTTP/1.1" 200 -
+[2024-03-17 11:54:12,447] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:54:12] "GET /predictdata HTTP/1.1" 200 -
+[2024-03-17 11:54:12,699] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:54:12] "GET /predictdata HTTP/1.1" 200 -
+[2024-03-17 11:54:24,408] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:54:24] "GET / HTTP/1.1" 200 -
+[2024-03-17 11:54:31,700] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:54:31] "GET /predictdata HTTP/1.1" 200 -
+[2024-03-17 11:55:16,540] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:55:16] "GET / HTTP/1.1" 200 -
+[2024-03-17 11:56:23,505] 96 werkzeug - INFO -  * Detected change in 'c:\\Users\\admin\\Projects2\\myenv\\app.py', reloading
+[2024-03-17 11:56:23,506] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\admin\\Projects2\\myenv\\app.py', reloading
+[2024-03-17 11:56:23,507] 96 werkzeug - INFO -  * Detected change in 'c:\\Users\\admin\\Projects2\\myenv\\app.py', reloading
+[2024-03-17 11:56:23,508] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\admin\\Projects2\\myenv\\app.py', reloading
+[2024-03-17 11:56:23,508] 96 werkzeug - INFO -  * Detected change in 'c:\\Users\\admin\\Projects2\\myenv\\app.py', reloading
+[2024-03-17 11:56:23,509] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\admin\\Projects2\\myenv\\app.py', reloading

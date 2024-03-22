@@ -1,0 +1,8 @@
+[2024-03-14 16:52:48,474] 22 root - INFO - Entered the data ingetsion method
+[2024-03-14 16:52:48,491] 25 root - INFO - read the dataset as dataframe..
+[2024-03-14 16:52:48,516] 31 root - INFO - train test and split initiated
+[2024-03-14 16:52:48,560] 39 root - INFO - Ingestion of the data is completed
+[2024-03-14 16:52:48,610] 76 root - INFO - Reading training and testing data completed
+[2024-03-14 16:52:48,610] 78 root - INFO - Obtaining Preprocessing object
+[2024-03-14 16:52:48,610] 45 root - INFO - Numerical columns:['Transaction_ID', 'Hour', 'Month', 'DayOfWeek', 'Transaction_Amount', 'Amount_paid', 'Vehicle_Speed']
+[2024-03-14 16:52:48,610] 54 root - INFO - categorical column encoding and filling Misiing values:['Vehicle_Type', 'FastagID', 'TollBoothID', 'Lane_Type', 'Vehicle_Dimensions', 'Geographical_Location', 'Vehicle_Plate_Number', 'Fraud_indicator']

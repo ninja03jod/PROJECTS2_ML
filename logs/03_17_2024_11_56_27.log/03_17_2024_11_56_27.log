@@ -1,0 +1,4 @@
+[2024-03-17 11:56:28,067] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-03-17 11:56:28,069] 96 werkzeug - INFO -  * Debugger PIN: 105-919-939
+[2024-03-17 11:56:45,638] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:56:45] "GET / HTTP/1.1" 200 -
+[2024-03-17 11:56:58,650] 96 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2024 11:56:58] "GET / HTTP/1.1" 200 -
